@@ -7,7 +7,7 @@ namespace R
         static void Main(string[] args)
         {
             string x = Console.ReadLine();
-            int n = 0;
+            int n = 0; //number of circles in string e.g 12345=0   1010101=3    865783=5
             int l = x.Length; 
             for (int q = 0;q <= l-1; q++)
             {
